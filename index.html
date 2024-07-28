@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Metadados do documento -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Container principal -->
+    <div class="container">
+
+        <!-- Primeiro cartão -->
+        <article class="card" data-color="clr1">
+            <span></span>
+            <div class="card-content">
+                <h2>Card One</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reprehenderit accusamus impedit dolor maiores est! Maiores eveniet!</p>
+                <a class="btn" href="#">Leia Mais</a>
+            </div>
+        </article>
+
+        <!-- Segundo cartão -->
+        <article class="card" data-color="clr2">
+            <span></span>
+            <div class="card-content">
+                <h2>Card Two</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reprehenderit accusamus impedit dolor maiores est! Maiores eveniet!</p>
+                <a class="btn" href="#">Leia Mais</a>
+            </div>
+        </article>
+
+        <!-- Terceiro cartão -->
+        <article class="card" data-color="clr3">
+            <span></span>
+            <div class="card-content">
+                <h2>Card Three</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reprehenderit accusamus impedit dolor maiores est! Maiores eveniet!</p>
+                <a class="btn" href="#">Leia Mais</a>
+            </div>
+        </article>
+    </div>
+
+    <!-- Container para o cursor personalizado -->
+    <div class="cursor-container">
+        <div class="cursor"></div>
+    </div>
+
+    <!-- Scripts externos e inicialização do efeito de inclinação -->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="cursor.js"></script>
+    <script> 
+        // Inicializa o efeito de inclinação nos cartões
+        VanillaTilt.init(document.querySelectorAll(".card"), {max: 25, speed: 4000}); 
+    </script>
+</body>
+</html>
