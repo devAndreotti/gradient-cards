@@ -42,6 +42,6 @@ Você pode visualizar o projeto online através deste [link](https://devandreott
 
 Sinta-se à vontade para contribuir com o projeto. Se você encontrar algum problema ou tiver sugestões de melhorias, por favor, abra uma issue ou um pull request.
 
-## 📄 Licença
+## 📌 Nota
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto é para fins educacionais e demonstra a manipulação dinâmica de estilos com CSS e JavaScript. Sinta-se livre para explorar, modificar e adaptar conforme necessário.
