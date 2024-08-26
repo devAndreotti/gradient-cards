@@ -14,7 +14,7 @@
   <img src="./gradient.png" alt="Cube Banner"/>
 </div>
 
-## 🚀 Funcionalidades
+## ⚙️ Funcionalidades
 
 - **Alteração de Cor de Fundo:** Muda a cor da página ao passar o mouse sobre os cartões.
 - **Efeito de Inclinação:** Cartões com efeito de inclinação suave usando VanillaTilt.
