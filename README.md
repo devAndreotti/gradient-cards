@@ -10,7 +10,7 @@
 </p>
 
 <div align="center">
-  <img src="./gradient.png" alt="Cube Banner"/>
+  <img src="./gradient.png" alt="Gradient Banner"/>
 </div>
 
 ## ⚙️ Funcionalidades
