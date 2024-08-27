@@ -33,8 +33,13 @@ Você pode visualizar o projeto online através deste [link](https://devandreott
    ```
 2. Abra o `index.html` no navegador.
 
-## 📝 Contribuições
-Sinta-se à vontade para contribuir com o projeto. Se você encontrar algum problema ou tiver sugestões de melhorias, por favor, abra uma issue ou um pull request.
+## 💪 Contribuição
+Contribuições são bem-vindas! Para contribuir, siga estas etapas:
+1. Faça um fork do projeto.
+2. Crie uma nova branch para sua feature `git checkout -b feature/nome-feature`.
+3. Commit suas mudanças `git commit -m 'Adiciona nova feature'`.
+4. Envie para a branch `git push origin feature/nome-feature`.
+5. Abra um Pull Request.
 
 ## 📌 Nota
 Este projeto é para fins educacionais e demonstra a manipulação dinâmica de estilos com CSS e JavaScript. Sinta-se livre para explorar, modificar e adaptar conforme necessário.
